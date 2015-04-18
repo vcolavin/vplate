@@ -85,7 +85,7 @@ h2.vp-subtitle {
   }
 }
 
-/* to use this footer:
+/* to use vp-footer:
 
 <div class="vp-wrapper">
   <!-- stuff -->
@@ -104,8 +104,5 @@ h2.vp-subtitle {
 
 .vp-footer {
   margin-top: -1.5em;  /* must be equal to height * -1 */
-}
-
-.vp-footer-text {
   text-align: center;
 }
