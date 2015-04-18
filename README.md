@@ -1,7 +1,9 @@
 # Voilerplate
-Boilerplate HTML + CSS stuff I'll end up using for most sites.
+Boilerplate HTML + CSS stuff I find myself using often.
 
 Uses normalize.css and is bootstrapped for a mobile-first approach.
+
+index.html includes examples of all styles defined in vplate_styles.css
 
 Also includes styles for elements I like, e.g.
 - header
