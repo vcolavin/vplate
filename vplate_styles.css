@@ -19,23 +19,26 @@ a:link, a:visited, a:hover, a:active {
   min-height: 100vh;
 }
 
+/* edit header and footer colors here */
+.header, .footer {
+  background-color: black;
+  color: white;
+}
+
 .header {
   position: relative;
-  background-color: black;
 }
 
 h1.title {
   text-align: center;
   margin: 0px;
   font-size: 4em;
-  color: #FFFFFF;
 }
 
 h2.subtitle {
   text-align: center;
   margin: 0px;
   padding: 0px;
-  color: #FFFFFF;
 }
 
 /* desktop styles for the header */
@@ -58,18 +61,17 @@ h2.subtitle {
 }
 
 .space-filler, .footer {
-  height: 1em;
+  height: 1.5em;
   clear: both;
   position: bottom;
 }
 
 .footer {
   background-color: black;
-  margin-top: -1em;  /* must be the same as the height */
+  margin-top: -1.5em;  /* must be equal to height * -1 */
   width: 100%;
 }
 
 .footer-text {
   text-align: center;
-  color: white;
 }
