@@ -1,4 +1,5 @@
-/*TODO: implement mobile-responsive headers*/
+/* TODO: implement mobile-responsive header buttons which snap from the right to centered. */
+/* TODO: implement an scss version to ease vp-grid-list-item width pains. Currently, changing the padding requires changing the width, and vice-versa. This isn't optimal.*/
 
 * {
   font-family: sans-serif;
@@ -29,7 +30,6 @@ body, html {
 h1.vp-title {
   text-align: center;
   margin: 0px;
-  /*font-size: 4em;*/
 }
 
 h2.vp-subtitle {
@@ -54,12 +54,9 @@ h2.vp-subtitle {
 
 .vp-grid-list-item {
   clear: none;
-  /*margin-top: 3%;*/
-  /*padding: 3%;*/
   margin: auto;
   text-align: center;
   vertical-align: text-top;
-  width: 80%;
 }
 
 /* tablet && landscape phone styles for elements within wrapper */
@@ -86,6 +83,7 @@ h2.vp-subtitle {
   }
 }
 
+/* to use this footer, place a vp-space-filler div at the bottom of the main vp-wrapper, then place the vp-footer div underneath vp-wrapper*/
 .vp-space-filler, .vp-footer {
   height: 1.5em;
   clear: both;
