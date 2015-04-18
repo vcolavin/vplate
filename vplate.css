@@ -45,9 +45,7 @@ h2.vp-subtitle {
   /* ... */
 }
 
-.vp-content {
-  clear: both;
-}
+/* mobile-first grid list:; */
 
 .vp-grid-list {
   padding: 0;
