@@ -1,0 +1,143 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  margin: 0px;
+  /*font-size: 0;*/
+}
+
+body, html {
+  height: 100%;
+  background-color: white;
+  color: black;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: underline;
+  color: black;
+}
+
+.wrapper {
+  min-height: 100vh;
+  padding-bottom: 2%;
+}
+
+.header {
+  position: relative;
+  background-color: #BDBC2E;
+  padding-top: 1%;
+  padding-bottom: 8px;
+}
+
+.name {
+  text-align: center;
+  margin: 0px;
+  font-size: 4em;
+  color: #FFFFFF;
+}
+
+.subtitle {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.5em;
+  color: #FFFFFF;
+}
+
+.header-button-container {
+  text-align: center;
+}
+
+.header-button {
+  height: 2.5em;
+  padding-top: 1%;
+  -webkit-filter: invert(100%);
+}
+
+.header-button-container a {
+  text-decoration: none;
+}
+
+/* desktop */
+@media (min-width: 1000px) {
+  .header-button-container {
+    top: 18%;
+    right: 2%;
+    position: absolute;
+  }
+
+  .header-button {
+    display: block;
+  }
+}
+
+.content {
+  clear: both;
+  margin-top: 4%;
+  padding: 0% 5% 0% 5%;
+}
+
+.intro-blurb {
+  text-align: center;
+}
+
+.portfolio-header {
+  text-align: center;
+  margin-top: 3em;
+}
+
+.portfolio-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.portfolio-item {
+  clear: none;
+  margin-top: 3%;
+  padding: 3%;
+  margin: auto;
+  text-align: center;
+  vertical-align: text-top;
+  width: 80%;
+}
+
+/* tablet */
+@media (min-width: 600px), handheld and (orientation: landscape){
+  .portfolio-item {
+    float: left;
+    min-height: 18rem;
+    height: auto;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    width: 45%;
+  }
+}
+
+/* desktop */
+@media (min-width: 1000px) {
+  .portfolio-item {
+    float: left;
+    min-height: 15em;
+    height: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 27.333%;
+  }
+}
+
+.space-filler {
+  clear: both;
+  height: 20px;
+  position: bottom;
+}
+
+.footer {
+  clear: both;
+  background-color: #BDBC2E;
+  margin-top: -20px;
+  height: 20px;
+  width: 100%;
+}
+
+.footer-text {
+  text-align: center;
+  color: white;
+}
