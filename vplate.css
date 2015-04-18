@@ -1,11 +1,9 @@
 /* TODO: implement mobile-responsive header buttons which snap from right-justified to centered. */
 /* TODO: implement an scss version to ease vp-grid-list-item width pains. Currently, changing the padding requires changing the width, and vice-versa. This isn't optimal.*/
-/* TODO: Why does it use ems sometimes and rems other times?*/
-/* TODO: modularize this; keep all footer-relevant code in a single chunk, et c. */
+/* WOULD BE NICE: make it work stand-alone, i.e. without relying on normalize.cs to work. This means cross-browser testing.*/
 
 * {
-  font-family: sans-serif;
-  margin: 0px;
+  /*margin: 0px;*/
 }
 
 body, html {
@@ -93,7 +91,7 @@ h2.vp-subtitle {
   @media (min-width: 600px), handheld and (orientation: landscape){
     .vp-grid-list-item {
       float: left;
-      min-height: 18rem;
+      min-height: 18em;
       height: auto;
       padding-right: 2.5%;
       padding-left: 2.5%;
@@ -112,5 +110,6 @@ h2.vp-subtitle {
       width: 27.333333%;
     }
   }
+
 /* === end grid list === */
 
