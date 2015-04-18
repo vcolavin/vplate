@@ -1,5 +1,5 @@
 * {
-  font-family: 'Raleway', sans-serif;
+  font-family: sans-serif;
   margin: 0px;
 }
 
@@ -9,6 +9,7 @@ body, html {
   color: black;
 }
 
+/* all links look the same. No worries. */
 a:link, a:visited, a:hover, a:active {
   text-decoration: underline;
   color: black;
@@ -20,23 +21,20 @@ a:link, a:visited, a:hover, a:active {
 
 .header {
   position: relative;
-  background-color: #BDBC2E;
-  padding-top: 1%;
-  padding-bottom: 8px;
+  background-color: black;
 }
 
-.name {
+h1.title {
   text-align: center;
   margin: 0px;
   font-size: 4em;
   color: #FFFFFF;
 }
 
-.subtitle {
+h2.subtitle {
   text-align: center;
   margin: 0px;
   padding: 0px;
-  font-size: 1.5em;
   color: #FFFFFF;
 }
 
@@ -47,8 +45,6 @@ a:link, a:visited, a:hover, a:active {
 
 .content {
   clear: both;
-  margin-top: 4%;
-  padding: 0% 5% 0% 5%;
 }
 
 /* tablet && landscape phone styles for content */
@@ -62,14 +58,14 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .space-filler, .footer {
-  height: 20px;
+  height: 1em;
   clear: both;
   position: bottom;
 }
 
 .footer {
-  background-color: #BDBC2E;
-  margin-top: -20px;  /* must be the same as the height */
+  background-color: black;
+  margin-top: -1em;  /* must be the same as the height */
   width: 100%;
 }
 
