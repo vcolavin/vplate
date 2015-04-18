@@ -61,18 +61,15 @@ a:link, a:visited, a:hover, a:active {
   /* ... */
 }
 
-/* necessary to ensure that content will not flow into the footer */
-.space-filler {
-  clear: both;
+.space-filler, .footer {
   height: 20px;
+  clear: both;
   position: bottom;
 }
 
 .footer {
-  clear: both;
   background-color: #BDBC2E;
-  margin-top: -20px;
-  height: 20px;
+  margin-top: -20px;  /* must be the same as the height */
   width: 100%;
 }
 
