@@ -16,7 +16,6 @@ a:link, a:visited, a:hover, a:active {
 
 .wrapper {
   min-height: 100vh;
-  padding-bottom: 2%;
 }
 
 .header {
@@ -41,21 +40,7 @@ a:link, a:visited, a:hover, a:active {
   color: #FFFFFF;
 }
 
-.header-button-container {
-  text-align: center;
-}
-
-.header-button {
-  height: 2.5em;
-  padding-top: 1%;
-  -webkit-filter: invert(100%);
-}
-
-.header-button-container a {
-  text-decoration: none;
-}
-
-/* desktop styles */
+/* desktop styles for the header */
 @media (min-width: 1000px) {
   /* ... */
 }
@@ -66,16 +51,17 @@ a:link, a:visited, a:hover, a:active {
   padding: 0% 5% 0% 5%;
 }
 
-/* tablet && landscape phone styles */
+/* tablet && landscape phone styles for content */
 @media (min-width: 600px), handheld and (orientation: landscape){
   /* ... */
 }
 
-/* desktop styles */
+/* desktop styles for content */
 @media (min-width: 1000px) {
   /* ... */
 }
 
+/* necessary to ensure that content will not flow into the footer */
 .space-filler {
   clear: both;
   height: 20px;
