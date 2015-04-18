@@ -1,7 +1,6 @@
 * {
   font-family: 'Raleway', sans-serif;
   margin: 0px;
-  /*font-size: 0;*/
 }
 
 body, html {
@@ -56,17 +55,9 @@ a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
 
-/* desktop */
+/* desktop styles */
 @media (min-width: 1000px) {
-  .header-button-container {
-    top: 18%;
-    right: 2%;
-    position: absolute;
-  }
-
-  .header-button {
-    display: block;
-  }
+  /* ... */
 }
 
 .content {
@@ -75,52 +66,14 @@ a:link, a:visited, a:hover, a:active {
   padding: 0% 5% 0% 5%;
 }
 
-.intro-blurb {
-  text-align: center;
-}
-
-.portfolio-header {
-  text-align: center;
-  margin-top: 3em;
-}
-
-.portfolio-list {
-  padding: 0;
-  list-style-type: none;
-}
-
-.portfolio-item {
-  clear: none;
-  margin-top: 3%;
-  padding: 3%;
-  margin: auto;
-  text-align: center;
-  vertical-align: text-top;
-  width: 80%;
-}
-
-/* tablet */
+/* tablet && landscape phone styles */
 @media (min-width: 600px), handheld and (orientation: landscape){
-  .portfolio-item {
-    float: left;
-    min-height: 18rem;
-    height: auto;
-    padding-right: 2.5%;
-    padding-left: 2.5%;
-    width: 45%;
-  }
+  /* ... */
 }
 
-/* desktop */
+/* desktop styles */
 @media (min-width: 1000px) {
-  .portfolio-item {
-    float: left;
-    min-height: 15em;
-    height: auto;
-    padding-left: 3%;
-    padding-right: 3%;
-    width: 27.333%;
-  }
+  /* ... */
 }
 
 .space-filler {
