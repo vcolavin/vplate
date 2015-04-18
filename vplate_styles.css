@@ -50,14 +50,43 @@ h2.subtitle {
   clear: both;
 }
 
-/* tablet && landscape phone styles for content */
-@media (min-width: 600px), handheld and (orientation: landscape){
-  /* ... */
+.grid-list {
+  padding: 0;
+  list-style-type: none;
 }
 
-/* desktop styles for content */
+.grid-list-item {
+  clear: none;
+  /*margin-top: 3%;*/
+  padding: 3%;
+  margin: auto;
+  text-align: center;
+  vertical-align: text-top;
+  width: 80%;
+}
+
+/* tablet && landscape phone styles for elements within wrapper */
+@media (min-width: 600px), handheld and (orientation: landscape){
+  .grid-list-item {
+    float: left;
+    min-height: 18rem;
+    height: auto;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    width: 45%;
+  }
+}
+
+/* desktop styles for elements within wrapper */
 @media (min-width: 1000px) {
-  /* ... */
+  .grid-list-item {
+    float: left;
+    min-height: 15em;
+    height: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 27.333%;
+  }
 }
 
 .space-filler, .footer {
