@@ -1,5 +1,5 @@
 # vplate
-CSS styles I find myself using often. Mobile-first, responsive, namespaced, hopefully minimal.
+CSS styles I find myself using often. Mobile-first, responsive, namespaced, attemps to be minimal, and modular.
 
 Even if I don't use this actual code for new projects, it's certainly a useful reference.
 
