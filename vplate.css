@@ -14,20 +14,7 @@ body, html {
   color: black;
 }
 
-.vp-wrapper {
-  min-height: 100vh;
-}
-
-/* edit common header and footer styles here */
-.vp-header, .vp-footer {
-  background-color: black;
-  color: white;
-  width: 100%;
-}
-
-.vp-header {
-  position: relative;
-}
+/* === titles and whatever ===*/
 
 h1.vp-title {
   text-align: center;
@@ -40,67 +27,90 @@ h2.vp-subtitle {
   padding: 0px;
 }
 
-/* desktop styles for the header */
-@media (min-width: 1000px) {
-  /* ... */
-}
-
-/* mobile-first grid list:; */
-
-.vp-grid-list {
-  padding: 0;
-  list-style-type: none;
-}
-
-.vp-grid-list-item {
-  clear: none;
-  margin: auto;
-  text-align: center;
-  vertical-align: text-top;
-}
-
-/* tablet && landscape phone styles for elements within wrapper */
-@media (min-width: 600px), handheld and (orientation: landscape){
-  .vp-grid-list-item {
-    float: left;
-    min-height: 18rem;
-    height: auto;
-    padding-right: 2.5%;
-    padding-left: 2.5%;
-    width: 45%;
-  }
-}
-
-/* desktop styles for elements within wrapper */
-@media (min-width: 1000px) {
-  .vp-grid-list-item {
-    float: left;
-    min-height: 15em;
-    height: auto;
-    padding-left: 3%;
-    padding-right: 3%;
-    width: 27.333333%;
-  }
-}
+/* === end titles and whatever === */
 
 /* to use vp-footer:
-
-<div class="vp-wrapper">
-  <!-- stuff -->
-  <div class="vp-space-filler"></div>
-</div>
-<div class="vp-footer">
-  <!-- stuff -->
-</div>
-
+   <div class="vp-wrapper">
+     <!-- stuff -->
+     <div class="vp-space-filler"></div>
+   </div>
+   <div class="vp-footer">
+     <!-- stuff -->
+   </div>
 */
-.vp-space-filler, .vp-footer {
-  height: 1.5em;
-  clear: both;
-  position: bottom;
-}
 
-.vp-footer {
-  margin-top: -1.5em;  /* must be equal to height * -1 */
-  text-align: center;
-}
+
+/* === header and footer: === */
+
+  .vp-wrapper {
+    min-height: 100vh;
+  }
+
+  /* edit common header and footer styles here */
+  .vp-header, .vp-footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+  }
+
+  .vp-header {
+    position: relative;
+  }
+
+  .vp-space-filler, .vp-footer {
+    height: 1.5em;
+    clear: both;
+    position: bottom;
+  }
+
+  .vp-footer {
+    margin-top: -1.5em;  /* must be equal to height * -1 */
+    text-align: center;
+  }
+
+  /* desktop styles */
+  @media (min-width: 1000px) {
+    /* ... */
+  }
+
+/* === end header and footer === */
+
+
+/* === responsive grid list: === */
+  .vp-grid-list {
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .vp-grid-list-item {
+    clear: none;
+    margin: auto;
+    text-align: center;
+    vertical-align: text-top;
+  }
+
+  /* tablet and landscape-oriented phones */
+  @media (min-width: 600px), handheld and (orientation: landscape){
+    .vp-grid-list-item {
+      float: left;
+      min-height: 18rem;
+      height: auto;
+      padding-right: 2.5%;
+      padding-left: 2.5%;
+      width: 45%;
+    }
+  }
+
+  /* desktop */
+  @media (min-width: 1000px) {
+    .vp-grid-list-item {
+      float: left;
+      min-height: 15em;
+      height: auto;
+      padding-left: 3%;
+      padding-right: 3%;
+      width: 27.333333%;
+    }
+  }
+/* === end grid list === */
+
