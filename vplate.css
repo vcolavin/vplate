@@ -2,16 +2,6 @@
 /* TODO: implement an scss version to ease vp-grid-list-item width pains. Currently, changing the padding requires changing the width, and vice-versa. This isn't optimal.*/
 /* WOULD BE NICE: make it work stand-alone, i.e. without relying on normalize.cs to work. This means cross-browser testing.*/
 
-* {
-  /*margin: 0px;*/
-}
-
-body, html {
-  height: 100%;
-  background-color: white;
-  color: black;
-}
-
 /* === titles and whatever ===*/
 
 h1.vp-title {
@@ -27,18 +17,19 @@ h2.vp-subtitle {
 
 /* === end titles and whatever === */
 
-/* to use vp-footer:
-   <div class="vp-wrapper">
-     <!-- stuff -->
-     <div class="vp-space-filler"></div>
-   </div>
-   <div class="vp-footer">
-     <!-- stuff -->
-   </div>
-*/
 
 
 /* === header and footer: === */
+
+  /* to use vp-footer:
+     <div class="vp-wrapper">
+       <!-- stuff -->
+       <div class="vp-space-filler"></div>
+     </div>
+     <div class="vp-footer">
+       <!-- stuff -->
+     </div>
+  */
 
   .vp-wrapper {
     min-height: 100vh;
